@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>assignment-5</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -19,7 +19,7 @@
 </style>
 
 </head>
-<body class="font-Poppins bg-[#eff6ff] mx-20 mb-20">
+<body class="font-Poppins bg-[#eff6ff] mb-20 container mx-auto">
     <header class="">
         <nav class="bg-[#FFFFFF] py-3 rounded-2xl mt-10  border border-black shadow-2xl">
             <section class="flex justify-between px-7">
@@ -46,8 +46,8 @@
             </section>
         </nav>
     </header>
-    <main class="mt-5 flex gap-6 ">
-        <section class="bg-[#FFFFFF] rounded-xl p-7">
+    <main class="mt-5 gap-6 grid grid-flow-row-dense grid-cols-4">
+        <section class="bg-[#FFFFFF] rounded-xl p-7 col-span-3">
             <div class="flex gap-7">
                 <div class="p-7 flex items-center bg-[#F4F7FF] rounded-3xl justify-center gap-8">
                     <img src="./assets/checkbox.png" alt="">
@@ -66,13 +66,13 @@
                     </div>
                     <div>
                         <h6 class="font-normal text-2xl">Wed ,</h6>
-                        <h1 class="font-bold text-xl">Jul 28 2025 </h1>
+                        <h1 class="font-semibold text-2xl">Jul 28 2025 </h1>
                     </div>
                 </div>
             </div>
             <!-- <div class="border-spacing-5 border-2 border-dashed drop-shadow mt-10"></div> -->
              <hr class="border-dashed border-2 drop-shadow border-blue-50 mt-10">
-             <div class="grid grid-cols-3 gap-9 mt-10">
+             <div class="grid grid-cols-3 gap-8 mt-10">
                 <!-- card 1 -->
                 <div class="bg-[#eff6ff] rounded-xl">
                     <div class="mx-5 ">
@@ -85,16 +85,16 @@
                             <h5 class="text-gray-500">Deadline</h5>
                             <h4 class="text-base font-medium">21 March 2025</h4>
                         </div>
-                        <button class="bg-blue-700 text-white px-6 py-3 rounded-lg">Completed</button>
+                        <button class="bg-blue-700 text-white px-6 py-3 rounded-lg completed">Completed</button>
                     </div>
                     </div>
                 </div>
                 <!-- card 2 -->
                  <div class="bg-[#eff6ff] rounded-xl">
                     <div class="mx-5 ">
-                        <p class="font-normal text-base bg-white mt-5 px-3 py-2 inline-block rounded-lg">ShopEase</p>
-                    <h1 class="font-medium text-2xl mt-4">Fix Mobile Button Issue </h1>
-                    <p class="font-normal text-base truncate text-gray-500 bg-white py-3 rounded-lg px-3 mt-4 ">Debug using Chrome<br>DevTools, check for overlapping elements, and ensure onClick works properly and ensure onClick works properly</p>
+                        <p class="font-normal text-base bg-white mt-5 px-3 py-2 inline-block rounded-lg">CloudSync</p>
+                    <h1 class="font-medium text-2xl mt-4">Add Dark Mode </h1>
+                    <p class="font-normal text-base truncate text-gray-500 bg-white py-3 rounded-lg px-3 mt-4 ">Store the user's preference in<br>localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
                     <hr class="border-dashed border-blue-200 mt-10">
                     <div class="flex justify-between gap-3 mt-6 mb-5">
                         <div class="">
@@ -108,8 +108,8 @@
                 <!-- card 3 -->
                  <div class="bg-[#eff6ff] rounded-xl">
                     <div class="mx-5 ">
-                        <p class="font-normal text-base bg-white mt-5 px-3 py-2 inline-block rounded-lg">ShopEase</p>
-                    <h1 class="font-medium text-2xl mt-4">Fix Mobile Button Issue </h1>
+                        <p class="font-normal text-base bg-white mt-5 px-3 py-2 inline-block rounded-lg">SwiftPay</p>
+                    <h1 class="font-medium text-2xl mt-4">Optimize  Home page</h1>
                     <p class="font-normal text-base truncate text-gray-500 bg-white py-3 rounded-lg px-3 mt-4 ">Debug using Chrome<br>DevTools, check for overlapping elements, and ensure onClick works properly and ensure onClick works properly</p>
                     <hr class="border-dashed border-blue-200 mt-10">
                     <div class="flex justify-between gap-3 mt-6 mb-5">
@@ -124,8 +124,8 @@
                 <!-- card 4 -->
                  <div class="bg-[#eff6ff] rounded-xl">
                     <div class="mx-5 ">
-                        <p class="font-normal text-base bg-white mt-5 px-3 py-2 inline-block rounded-lg">ShopEase</p>
-                    <h1 class="font-medium text-2xl mt-4">Fix Mobile Button Issue </h1>
+                        <p class="font-normal text-base bg-white mt-5 px-3 py-2 inline-block rounded-lg">Meta</p>
+                    <h1 class="font-medium text-2xl mt-4">Add new emoji</h1>
                     <p class="font-normal text-base truncate text-gray-500 bg-white py-3 rounded-lg px-3 mt-4 ">Debug using Chrome<br>DevTools, check for overlapping elements, and ensure onClick works properly and ensure onClick works properly</p>
                     <hr class="border-dashed border-blue-200 mt-10">
                     <div class="flex justify-between gap-3 mt-6 mb-5">
@@ -140,8 +140,8 @@
                 <!-- card 5 -->
                  <div class="bg-[#eff6ff] rounded-xl">
                     <div class="mx-5 ">
-                        <p class="font-normal text-base bg-white mt-5 px-3 py-2 inline-block rounded-lg">ShopEase</p>
-                    <h1 class="font-medium text-2xl mt-4">Fix Mobile Button Issue </h1>
+                        <p class="font-normal text-base bg-white mt-5 px-3 py-2 inline-block rounded-lg">Google LLC</p>
+                    <h1 class="font-medium text-2xl mt-4">Integrate OpenAI API</h1>
                     <p class="font-normal text-base truncate text-gray-500 bg-white py-3 rounded-lg px-3 mt-4 ">Debug using Chrome<br>DevTools, check for overlapping elements, and ensure onClick works properly and ensure onClick works properly</p>
                     <hr class="border-dashed border-blue-200 mt-10">
                     <div class="flex justify-between gap-3 mt-6 mb-5">
@@ -156,8 +156,8 @@
                  <!-- card 6 -->
                   <div class="bg-[#eff6ff] rounded-xl">
                     <div class="mx-5 ">
-                        <p class="font-normal text-base bg-white mt-5 px-3 py-2 inline-block rounded-lg">ShopEase</p>
-                    <h1 class="font-medium text-2xl mt-4">Fix Mobile Button Issue </h1>
+                        <p class="font-normal text-base bg-white mt-5 px-3 py-2 inline-block rounded-lg">Glassdoar</p>
+                    <h1 class="font-medium text-2xl mt-4">Improve Job searching</h1>
                     <p class="font-normal text-base truncate text-gray-500 bg-white py-3 rounded-lg px-3 mt-4 ">Debug using Chrome<br>DevTools, check for overlapping elements, and ensure onClick works properly and ensure onClick works properly</p>
                     <hr class="border-dashed border-blue-200 mt-10">
                     <div class="flex justify-between gap-3 mt-6 mb-5">
